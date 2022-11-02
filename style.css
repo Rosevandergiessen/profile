@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Work+Sans:wght@200;400;600&display=swap');
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 850px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+body {
+background-color: #f5f2eb;
+background-image: radial-gradient(#20246b 0.65px, #f5f2eb 1px);
+background-size: 13px 13px;
+color: rgb(41, 41, 41);
+font-family: 'Work Sans', sans-serif;
+font-size: 20px;
+}
+
+h2, h3 {
+  color: #457af5;
+}
+
+h1 {
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  font-size: 90px;
+  line-height: 40px;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  margin-bottom: 20px;
+  /* text-transform: uppercase; */
+  text-shadow: -2px 4px #ef3550,
+               -6px 8px #f48fb1,
+               -10px 12px #7e57c2,
+               -14px 16px #2196f3,
+               -18px 20px #26c6da,
+               -22px 24px #43a047,
+               -26px 28px #eeff41,
+               -30px 32px #f9a825,
+               -34px 36px #ff5722;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  padding: 20px;
+}
+
+p span {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(75, 183, 246);
+}
+a {
+  text-decoration: none;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255);
+  /* width: 100%; */
+  padding-bottom: 50px;
+  padding-top: 50px;
+  margin: 30px 0px;
+}
+
+.shadow-blue {
+  box-shadow: 7px 7px rgba(33, 150, 243, 0.1);
+}
+.img-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.img-shadow {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-pink {
+  background-color: #9db7f5;
+  color: #642cc4;
+  font-weight: 600;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #642cc4;
+}
+
+.btn-pink:hover {
+  background-image: url("images/smiley.jpg");
+  background-size: contain;
+  content: "CLICK";
+  color: black;
+  font-weight: 600;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #000000;
+}
+
+.btn-pink:hover span {
+  display: none;
+}
+.btn-pink:hover:before {
+  content: "CLICK CLICK";
+}
+
+.btn-block {
+  width: 150px;
+  text-decoration: none;
+}
+.icon-black {
+  color: #403f3f ;
+  font-size: 80px;
+  margin: 30px;
+}
+.icons {
+  font-size: 60px;
+  color: #7e57c2;
+  padding: 5px;
+  margin: 0px;
+}
+
+.icons:hover {
+  color: rgb(75, 183, 246)
+}
+
+ul li {
+  display: inline;
+}
+
+ul {
+  padding-left: 0;
+}
